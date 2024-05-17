@@ -1,0 +1,13 @@
+@import '../../mixins.scss';
+
+.problem3Page{
+    @include layout;
+}
+
+.problem3Page__container{
+    @include layout__container;
+}
+
+.problem3Page__title{
+    @include layout__title
+}

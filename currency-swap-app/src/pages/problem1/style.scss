@@ -1,0 +1,32 @@
+@import '../../mixins.scss';
+
+.problem1Page{
+    @include layout;
+}
+
+.problem1Page__container{
+    @include layout__container;
+
+}
+
+.problem1Page__title{
+    @include layout__title
+}
+
+.problem1Page_input{
+    width: 30%;
+}
+.problem1Page__list-result{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    .problem1Page__list-result__result{
+        list-style-type: none;
+        font-size: 18px;
+        font-weight: 600;
+        span{
+            color: green;
+        }
+    }
+}
